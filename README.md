@@ -8,13 +8,15 @@ An advanced to-do application built using modern web technologies. This app allo
 - **Delete Tasks**: Users can delete tasks when they are completed or no longer needed.
 - **User Authentication**: Secure login and registration using Firebase Authentication.
 - **Task Management**: Tasks are stored and managed in Firebase.
+- **API Integrate**: Integrate Weather API which fetchs the weather data when user add outdoor activity.
 
 ## Technologies Used
 
 - **Frontend**: 
-  - React.js (or your preferred frontend framework)
-  - Firebase for Authentication and Database
+  - React.js 
+  - LocalStorage
   - CSS/SCSS for Styling
+  - API Integrate
 
 
 ## Installation
