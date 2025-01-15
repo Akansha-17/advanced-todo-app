@@ -26,10 +26,13 @@ To run this project locally, follow these steps:
    git clone https://github.com/Akansha-17/Advanced-ToDo-APP.git
 
 2. Navigate to the App
+   ```bash
    cd advanced-todo-app
 3. Install dependecies
+   ```bash
    npm install
 4. Start Application
+   ```bash
    npm start
 
 
