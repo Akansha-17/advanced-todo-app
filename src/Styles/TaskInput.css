@@ -1,0 +1,129 @@
+src/Styles/TaskInput.css
+
+/* Container for the task input form */
+.task-input-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.task-input-container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Input fields and button layout */
+.task-input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Task input field styling */
+.task-input {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.task-input:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+/* Priority dropdown styling */
+.priority-dropdown {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.priority-dropdown:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+/* Add task button styling */
+.add-task-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 80%;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+/* Activity dropdown styling */
+.activity-dropdown {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.activity-dropdown:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+/* src/Styles/TaskInput.css */
+
+/* Customize the toast container */
+.Toastify__toast-container {
+  font-family: "Arial", sans-serif; /* Change font */
+  z-index: 9999; /* Ensure it appears above other elements */
+}
+
+/* Customize the individual toast */
+.Toastify__toast {
+  background-color: #f8f9fa; /* Light background */
+  color: #343a40; /* Dark text */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 10px 15px;
+}
+
+/* Success toast styles */
+.Toastify__toast--success {
+  border-left: 4px solid #28a745; /* Green border */
+}
+
+/* Error toast styles */
+.Toastify__toast--error {
+  border-left: 4px solid #dc3545; /* Red border */
+}
+
+/* Toast close button */
+.Toastify__close-button {
+  color: #343a40; /* Close button color */
+  opacity: 0.8;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1; /* Make it fully visible on hover */
+}
+
+/* Progress bar styles */
+.Toastify__progress-bar {
+  background-color: #007bff; /* Blue progress bar */
+}

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .taskName {
+    font-size: 16px;
+    flex: 1;
+  }
+  
+  .priority {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #007BFF;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
